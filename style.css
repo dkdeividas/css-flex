@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: solid 1px white;
+}
+body{
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    display: flex;
+}
+.first{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(109, 223, 223);
+}
+.second{
+    height: 100%;
+    width: 40%;
+    background-color: darkgoldenrod;
+}
+.box-first{
+    height: 40%;
+    background-color: blue;
+}
+.box-second{
+    height: 40%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box-third{
+    height: 20%;
+    background-color: coral;
+}
+.small-box-first{
+    height: 50%;
+    width: 50%;
+    background-color: crimson;
+}
+.small-box-second{
+    height: 50%;
+    width: 50%;
+    background-color: darkmagenta;
+}
+.small-box-third{
+    height: 100%;
+    width: 50%;
+    background-color: darksalmon;
+}
